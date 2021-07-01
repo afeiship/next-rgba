@@ -15,7 +15,8 @@ npm install -S @jswork/next-rgba
 ```js
 import '@jswork/next-rgba';
 
-nx.rgba('red');       //'rgba(255,0,0,1)'
+nx.rgba('red');        //'rgba(255,0,0,1)'
+nx.rgba('#000', 0.1);  //'rgba(0,0,0,0.1)'
 ```
 
 ## license
